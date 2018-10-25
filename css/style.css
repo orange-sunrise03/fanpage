@@ -1,3 +1,45 @@
+
+body{
+    background-color: red
+}
+
+
+.header{
+    display:flex;
+    justify-content:center;
+}
+
+.container{
+   display:flex;
+    height:300px;
+   
+}
+
+.thumnail{
+    width:50%;
+}
+
+.thumbnail-image{width:200px;
+height:200px;
+
+
+}
+.gallery{display:flex;
+flex-wrap:wrap;
+justify-content:center;
+justify-content:space-around;
+  
+}
+.menu{
+    width:33%;
+}
+.main{
+    width:33%
+    
+}
+    
+
+.content{width:33%}
 html {
     height: 100%;
 }
