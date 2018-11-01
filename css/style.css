@@ -1,8 +1,35 @@
 
 body{
-    background-color: red
+    background-color: black;
+    text-decoration:white;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    margin: 5px;
+    color:white; 
+    padding:15px;
+    
+}
+
+.navbar a {
+    color:white
+    
+}
+
+.gal{ 
+    padding:15px;
+    
+}
+.about{padding: 15px;
+    
+}
+.home{ 
+  padding:15px;}
 
 .header{
     display:flex;
@@ -11,7 +38,8 @@ body{
 
 .container{
    display:flex;
-    height:300px;
+   justify-content:center;
+    height:30px;
    
 }
 
@@ -23,21 +51,24 @@ body{
 height:200px;
 
 
+
 }
 .gallery{display:flex;
 flex-wrap:wrap;
 justify-content:center;
 justify-content:space-around;
-  
-}
+  }
 .menu{
     width:33%;
 }
 .main{
+    text-align: center;
     width:33%
     
 }
-    
+.home-photo{display:flex;
+justify-content:center;
+}
 
 .content{width:33%}
 html {
@@ -46,6 +77,8 @@ html {
 
 body {
     height: 100%;
+    color:white;
+    
     
 }
 a {
@@ -59,3 +92,4 @@ a {
     width: 30px;
     margin: 15px;
 }
+
