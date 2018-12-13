@@ -13,8 +13,8 @@ body{
     margin: 5px;
     color:white; 
     padding:15px;
-    
-}
+    background-image: url(https://media1.giphy.com/media/11lVFn0Di6NOIU/giphy.gif?cid=3640f6095bdb7376463370366307448e)
+    }
 
 .navbar a {
     color:white
@@ -53,19 +53,25 @@ height:200px;
 
 
 }
+
+.thumbnails {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
 .gallery{display:flex;
-flex-wrap:wrap;
+
 justify-content:center;
 justify-content:space-around;
+background-image: url(https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=3640f6095bde6ab4776e4f3049c00af6ss)
   }
 .menu{
     width:33%;
-}
-.main{
     text-align: center;
-    width:33%
-    
 }
+
+    
 .home-photo{display:flex;
 justify-content:center;
 }
@@ -92,4 +98,3 @@ a {
     width: 30px;
     margin: 15px;
 }
-
